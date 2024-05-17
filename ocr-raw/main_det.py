@@ -496,7 +496,7 @@ para_values = {
     'use_dilation': False,
     'det_db_score_mode': 'slow',
     'det_box_type': 'quad',
-    'det_model_dir': './models/text-det/ideogram/model-det.onnx',
+    'det_model_dir': './models/text-det/ch/model-det.onnx',
     'det_algorithm': 'DB',
     'image_dir': '/content/uppp',
     'draw_img_save_dir': './output_dir/text-det',
