@@ -147,6 +147,9 @@ def main(args):
         logger.info("Predicts of {}".format(valid_image_file_list[ino]))
         logger.info('Result :{}'.format(rec_res[ino]))
         logger.info('Time to predict:{}'.format(time_pred))
+
+        print(rec_res)
+        print("====")
     if args.benchmark:
         text_recognizer.autolog.report()
 
@@ -154,7 +157,7 @@ def main(args):
 # Define the parameter values
 para_values = {
     'use_gpu': False,
-    'image_dir': '/Users/nguyenthaihoc/Desktop/FUJINET/ocr-system/ocr-raw/output_dir/text-det/crop_res_save_dir/mg_det_0/mg_crop_40.jpg',
+    'image_dir': './image_dir/text-rec/mg_crop_0.jpg',
     'rec_algorithm': 'SVTR_LCNet',
     'rec_model_dir': './models/text-rec/ja/model.onnx',
     'rec_image_inverse': True,

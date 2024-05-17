@@ -384,7 +384,7 @@ def remove_extension(file_path):
 def main(args):
     # image_file_list = get_image_file_list(args.image_dir)
     image_file_list = [
-        './image_dir/text-det/mg_det_0.png'
+        './image_dir/text-det/jp_bill.png'
     ]
     text_detector = TextDetector(args)
     total_time = 0
@@ -492,11 +492,11 @@ para_values = {
     'det_limit_type': 'min',
     'det_db_unclip_ratio': 2.5,
     'det_db_thresh': 0.3,
-    'det_db_box_thresh': 0.98,
+    'det_db_box_thresh': 0.97,
     'use_dilation': False,
     'det_db_score_mode': 'slow',
     'det_box_type': 'quad',
-    'det_model_dir': './models/text-det/ch/model-det.onnx',
+    'det_model_dir': './models/text-det/en/model-det.onnx',
     'det_algorithm': 'DB',
     'image_dir': '/content/uppp',
     'draw_img_save_dir': './output_dir/text-det',
