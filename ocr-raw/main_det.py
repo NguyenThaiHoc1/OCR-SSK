@@ -488,9 +488,9 @@ def main(args):
 para_values = {
     'use_gpu': False,
     'use_onnx': True,
-    'det_limit_side_len': 48,
+    'det_limit_side_len': 960,
     'det_limit_type': 'min',
-    'det_db_unclip_ratio': 2.5,
+    'det_db_unclip_ratio': 1.5,
     'det_db_thresh': 0.3,
     'det_db_box_thresh': 0.97,
     'use_dilation': False,
