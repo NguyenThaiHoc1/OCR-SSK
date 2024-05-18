@@ -3,4 +3,5 @@ server
 .idea
 
 
-ocr-raw/output_dir
+ocr-raw/output_dir/crop_res_save_dir
+!ocr-raw/output_dir/det_results.txt
